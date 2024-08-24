@@ -1,15 +1,9 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}' // Make sure these paths cover all your component files
+  ],
   theme: {
-    extend: {
-      width: {
-        half: "44%",
-      },
-      userSelect: {
-        none: "none",
-      },
-    },
+    extend: {}
   },
-  plugins: [],
-};
+  plugins: []
+}
